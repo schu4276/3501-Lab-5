@@ -17,7 +17,7 @@ public class Test{
                          {"2", "3", "5", "4", "1"}};
         MatchMaker test1 = new MatchMaker(programmers, companies, progPref, compPref);  
 
-
+        // Examples that are showcasing results with a different n
         String[] twoprogrammers = {"1", "2", "3"};
         String[] twocompanies = {"A", "B", "C"};
         // prefrence lists from programmers
@@ -30,7 +30,7 @@ public class Test{
                          {"2", "3", "1"}};
         MatchMaker twotest2 = new MatchMaker(twoprogrammers, twocompanies, twoprogPref, twocompPref);    
 
-
+        // A third test showing that input can be any string 
         String[] twoprogrammers3 = {"Bob", "Jim", "Porky"};
         String[] twocompanies3 = {"Target", "BestBuy", "PizzaHut"};
         // prefrence lists from programmers

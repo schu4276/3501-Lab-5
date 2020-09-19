@@ -89,7 +89,7 @@ public class MatchMaker{
     
     // Main 
     public static void main(String[] args){
-      
+        // this is the test example 
         String[] programmers = {"1", "2", "3", "4" ,"5"};
         String[] companies = {"A", "B", "C", "D", "E"};
         // prefrence lists from programmers
